@@ -13,6 +13,9 @@
     export default {
         name: "Form",
         mixins: [stateMixins],
+        mounted() {
+            location.reload();
+        },
         data() {
             return {
                 form: {
