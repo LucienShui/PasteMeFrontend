@@ -5,7 +5,7 @@ const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPl
 const version = 'master';
 
 // let webPath = 'https://cdn.jsdelivr.net/gh/PasteUs/CDN@' + version + '/pasteme/';
-let webPath = '/'
+let webPath = '/v2/'
 
 const cdn = {
     // 开发环境
