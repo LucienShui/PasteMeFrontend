@@ -19,7 +19,7 @@ export default new Router({
     base: "/",
     routes: [
         {
-            path: "/:key(0{0}|[a-zA-Z0-9]{3,8})",
+            path: "/:key(0{0}|[0-9]{3,8})",
             name: "index",
             component: Index
         },
