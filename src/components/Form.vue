@@ -2,7 +2,7 @@
     <b-row>
         <b-col md="1" lg="2"></b-col>
         <b-col md="10" lg="8">
-            <h1>请刷新网页</h1>
+            <p>跳转中</p>
         </b-col>
         <b-col md="1" lg="2"></b-col>
     </b-row>
@@ -14,7 +14,7 @@
         name: "Form",
         mixins: [stateMixins],
         mounted() {
-            location.reload();
+            location.href = '/'
         },
         data() {
             return {
